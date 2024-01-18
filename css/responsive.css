@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px){  
+    .header-section{
+       width: 50%;
+       flex-direction: column;
+       margin: 0px auto;
+    }
+    .nav-container{
+        width: 50%;
+        min-height: 10px;
+        flex-direction: column;
+    }
+    .items-container{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+}

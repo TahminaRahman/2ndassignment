@@ -1,0 +1,411 @@
+/* google font family */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700;800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.header-section{
+    max-width: 1250px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+.nav-container img{
+    width: 32px;
+    min-height: 10px;
+    object-fit: cover;
+}
+.nav-container img {
+    display: flex;
+    gap: 40px;
+}
+.nav-container h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+span.nav-content{
+    color: #FF5400;
+}
+.items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+/*  banner section  */
+.banner-section{
+    max-width: 1250px;
+    height: 498px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/backimg.png);;
+    margin: 40px auto;
+    border-radius: 20px;
+    display: flex;
+}
+.text-container{
+    width: 80%;
+    margin: 66px auto;
+}
+.text-container h2{
+    display: flex;
+    justify-content: center;
+    font-size: 72px;
+    font-weight: 800;
+    color: white;
+}
+.text-container p{
+    display: flex;
+    text-align: center;
+    margin: 30px auto;
+    color: white;
+}
+.input-1{
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 5px;
+    margin: 0px auto;
+}
+.inp-1{
+    height: 34px;
+    margin: 16px;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+.btn-1{
+    height: 32px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    font-size: 16px;
+    margin: 16px;
+    padding: 5px;
+    color: white;
+    background-color: #FF5400;
+}
+.tours-section{
+    border-style: calc(0, 10px) red;
+    max-width: 1250px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+.tours-section-text{
+    width: 40%;
+    height: 550px;
+    margin: 30px auto;
+}
+.tours-section-image{
+    width: 40%;
+    height: 550px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.30);
+    background-image: url(../images/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 20px auto;
+    border-radius: 9px;
+}
+.tours-section-text h2{
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+}
+.tours-section-text p{
+    margin: 9px auto;
+    color: gray;
+}
+.tours-section-text .btn-1 {
+    margin: 20px auto;
+}
+/* our popular section end here */
+
+/* gellery section start here */
+.new-section-create{
+    max-width: 1250px;
+    height: 580px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+.new-section{
+    width: 45%;
+    height: 514px;
+}
+.new-1{
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    margin: 60px auto; 
+}
+.new-2{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 28px;
+}
+.images-section{
+    width: 55%;
+    height: 514px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forest{
+    border-radius: 20px;
+}
+.destination-section{
+    width: 40%;
+    max-width: 1250px;
+    height: 125pxpx;
+    margin: 40px auto; 
+}
+.destination-heading h2{
+    font-size: 41px;
+    font-weight: 800;
+    margin: 11px 9%;
+}
+.destination-heading p{
+    font-size: 15px;
+    text-align: center;
+}
+.container{
+    width: 1250px;
+    height: 1006px;
+    margin: 0px auto;
+    padding: 5px;
+    display: flex;
+}
+.img-container .item-1{
+    float: left;
+    margin: 30px;
+    position: relative;
+}
+.item-1 h2{
+    display: flex;
+    position: absolute;
+    top: 140px;
+    color: white;
+    left: 225px;
+    font-size: 30px;
+}
+.img-container .item-2{
+    float: right;
+    margin: 30px 15px;
+    position: relative;
+}
+.item-2 h2{
+    display: flex;
+    top: 129px;
+    left: 207px;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+}
+.img-container .item-3{
+    margin: 0px 27px;
+    position: relative;
+}
+.item-3 h2{
+    position: absolute;
+    bottom: 129px;
+    color: white;
+    left: 134px;
+}
+.img-container .item-4{
+    float: right;
+    margin: -294px 26px;
+    position: relative;
+}
+.item-4 h2{
+    position: absolute;
+    top: 119px;
+    color: white;
+    left: 52px;
+}
+.img-container .item-5{
+    float: right;
+    margin: -292px 328px;
+    position: relative;
+}
+.item-5 h2{
+    position: absolute;
+    top: 128px;
+    color: white;
+    left: 187px;
+    font-size: 27px;
+}
+.img-container .item-6{
+    float: right;
+    margin: 21px 28px;
+    position: relative;
+}
+.item-6 h2{
+    position: absolute;
+    top: 130px;
+    color: white;
+    left: 162px;
+}
+.img-container .item-7{
+    float: right;
+    margin: 20px 10px;
+    position: relative;
+}
+.item-7 h2{
+    position: absolute;
+    top: 120px;
+    color: white;
+    left: 238px;
+    font-size: 35px;
+}
+/* gellary section end here */
+
+/* Newslatter section start here */
+.news-section{
+    max-width: 1250px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+} 
+.newslatter-section{
+    width: 48%;
+    border: 2px solid red;
+    margin: 1px auto;
+    height: 391px;
+    border-radius: 6px;
+}
+.newslatter-section h2{
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+    margin: 16px 40px;
+}
+.newslatter-section p{
+    margin: 9px auto;
+    color: gray;
+    color: black;
+    margin: 16px 45px;
+}
+.input-section .inpu-1{
+    width: 60%;
+    height: 40px;
+    background-color: rgba(19, 19, 24, 0.05);    ;
+    border: 1px solid gray;
+    border-radius: 2px;
+    color: black;
+    margin: 28px 30px;
+}
+.inpu-1{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+.precen{
+    font-size: 20px;
+    width: 61%;
+    height: 38px;
+    margin: -9px 117px;
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 28px;
+    margin-top: -11px;
+}
+.sell-section{
+    width: 50%;
+    position: relative;
+}
+.sell-section img{
+    width: 100%;
+}
+.discound{
+    width: 40%;
+    height: 50px;
+    background-color: #FF5400;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top: 62%;
+    left: 61%;
+    transform: rotate(-45deg);
+}
+/* Newslatter section start here */
+
+/* footer section start here */
+.footer-section{
+    width: 100%;
+    height: 300px;
+    border: 2px solid white;
+    margin: 40px auto;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 0px;
+}
+.footer-1{
+    width: 1250px;
+    height: 250px;
+    margin: 50px auto;
+}
+.icon-images{
+    display: flex;
+}
+.heading-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    gap: 10px;
+    font: bold;
+}
+.title-footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+.icon-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#facebook{
+    color: blue;
+}
+#twitter{
+    color: skyblue;
+}
+#instragam{
+    color: linear-gradient(to bottom, #e893cf, red);
+}
+#github{
+    color: black;
+}
+.icon-footer{
+    margin: 20px 10px; 
+}
+.title-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+} 
+/* footer section end here */
